@@ -1,0 +1,26 @@
+# Generated build and extracted game data
+/build/
+/gamedata/
+/staging/
+/scripts/__pycache__/
+
+# .NET build output
+**/bin/
+**/obj/
+
+# Vendored dependency history and local tooling archives
+/tools/UAssetAPI/.git/
+/tools/repak.zip
+/tools/UAssetAPI/.github/
+/tools/UAssetAPI/docs/
+/tools/UAssetAPI/UAssetAPI.Tests/
+/tools/UAssetAPI/UAssetAPI.Benchmark/
+/tools/UAssetAPI/UAssetAPI/Resources/AC7Key.bin
+/tools/UAssetAPI/UAssetAPI/repak_bind.*
+
+# Local/editor files
+.vs/
+.vscode/
+*.user
+*.suo
+*.log
