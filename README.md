@@ -149,3 +149,9 @@ Current element-name mappings are:
 | `Earth` | `Ground` |
 | `Dark` | `Dark` |
 | `Dragon` | `Dragon` |
+
+## Support
+
+If you find this mod helpful, consider supporting its development:
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/R6R01DV0JD)
