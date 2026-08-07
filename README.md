@@ -19,6 +19,31 @@ they remain usable in Palworld's passive-skill UI.
 The mod changes English passive-name text only. Remove the pak from `~mods` to
 uninstall it.
 
+## Reinstall After Windows Reset
+
+After restoring this repository and reinstalling Palworld, run PowerShell from
+the repository directory:
+
+```powershell
+Set-ExecutionPolicy -Scope Process Bypass
+.\install.ps1
+```
+
+The installer builds the default name-inclusive pak and copies it to the
+Palworld `~mods` directory. Close Palworld before running it.
+
+For a non-default Steam library, pass the vanilla pak path:
+
+```powershell
+.\install.ps1 -PalworldPak 'D:\SteamLibrary\steamapps\common\Palworld\Pal\Content\Paks\Pal-Windows.pak'
+```
+
+To install the optional effects-only variant instead:
+
+```powershell
+.\install.ps1 -EffectsOnly
+```
+
 ## Build
 
 Building requires:
